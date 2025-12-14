@@ -1,4 +1,5 @@
 <!doctype html>
+{% load static %}
 <html>
   <head>
     <meta charset="utf-8">
@@ -21,5 +22,17 @@
     {% else %}
       <p>No queries yet.</p>
     {% endif %}
+
+    <h2>Status breakdown</h2>
+
+    <canvas id="statusChart"  height="120"></canvas>
+    {{ status_labels|json_script:"status-labels" }}
+    {{ status_values|json_script:"status-values" }}
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="{% static 'weather/dashboard.js' %}"></script> 
+
+    <p>debug counts: {{ status_values }}</p>
+
   </body>
 </html>
