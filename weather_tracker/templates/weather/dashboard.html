@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <h1>Weather Query Dashboard</h1>
+
+    <p>Total queries: <strong>{{ queries|length }}</strong></p>
+
+    {% if queries %}
+      <ul>
+        {% for q in queries %}
+          <li>
+            {{ q.location.name }} — {{ q.get_metric_display }} — {{ q.target_year }}
+            ({{ q.get_status_display }})
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>No queries yet.</p>
+    {% endif %}
+  </body>
+</html>
