@@ -28,11 +28,19 @@
     <canvas id="statusChart"  height="120"></canvas>
     {{ status_labels|json_script:"status-labels" }}
     {{ status_values|json_script:"status-values" }}
+
+    <h2>Statistics over time</h2>
+    {{ time_labels|json_script:"time-labels" }}
+    {{ time_values|json_script:"time-values" }}
     
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="{% static 'weather/dashboard.js' %}"></script> 
 
-    <p>debug counts: {{ status_values }}</p>
+    <canvas id="timeChart"  height="120"></canvas>
+
+
+    <p>debug dates: {{ time_labels }}</p>
+    <p>debug dates counts: {{ time_values }}</p>
 
   </body>
 </html>
