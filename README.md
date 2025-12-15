@@ -50,13 +50,13 @@ A central dashboard aggregates all queries and results, presenting summaries and
 
 ## Styling
 
-- The application uses the NES.css framework for a retro, 8-bit inspired visual style, applied via a global stylesheet to maintain consistent UI elements across pages.
+- The application uses the NES.css framework for a retro, 8-bit inspired visual style, applied via a global stylesheet.
 - NES.css project: https://github.com/nostalgic-css/NES.css
 
 ---
 
 ## Project Structure
-
+```
 └── 12780_final/
     ├── .gitignore
     ├── Dockerfile
@@ -113,7 +113,7 @@ A central dashboard aggregates all queries and results, presenting summaries and
     │   │       └── submit_success.html
     │   └── .devcontainer/
     │       └── devcontainer.json
-
+```
 ## Database Model
 
 ### Location
