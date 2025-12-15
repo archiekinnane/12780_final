@@ -10,5 +10,7 @@
 <form method="post">
   {% csrf_token %}
   {{ form.as_p }}
-  <button type="submit">Submit</button>
+  <button type="submit" class="nes-btn is-primary">Submit</button>
 </form>
+
+<a href="{% url 'weather:hello' %}" class="nes-btn is-secondary">Home</a> 
