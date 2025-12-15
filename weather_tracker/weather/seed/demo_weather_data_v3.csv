@@ -1,0 +1,301 @@
+location_name,state,latitude,longitude,metric,target_year,baseline_start_year,baseline_end_year,target_value,baseline_avg_value,delta_value,status
+New York,New York,40.71427,-74.00597,days_above_90f,2015,2011,2020,5,8.1,-3.0999999999999996,completed
+New York,New York,40.71427,-74.00597,days_below_32f,2015,2011,2020,91,89.9,1.0999999999999943,completed
+New York,New York,40.71427,-74.00597,days_above_90f,2016,2011,2020,9,8.1,0.9000000000000004,completed
+New York,New York,40.71427,-74.00597,days_below_32f,2016,2011,2020,87,89.9,-2.9000000000000057,completed
+New York,New York,40.71427,-74.00597,days_above_90f,2017,2011,2020,5,8.1,-3.0999999999999996,completed
+New York,New York,40.71427,-74.00597,days_below_32f,2017,2011,2020,81,89.9,-8.900000000000006,completed
+New York,New York,40.71427,-74.00597,days_above_90f,2018,2011,2020,5,8.1,-3.0999999999999996,completed
+New York,New York,40.71427,-74.00597,days_below_32f,2018,2011,2020,97,89.9,7.099999999999994,completed
+New York,New York,40.71427,-74.00597,days_above_90f,2019,2011,2020,5,8.1,-3.0999999999999996,completed
+New York,New York,40.71427,-74.00597,days_below_32f,2019,2011,2020,106,89.9,16.099999999999994,completed
+New York,New York,40.71427,-74.00597,days_above_90f,2020,2011,2020,11,8.1,2.9000000000000004,completed
+New York,New York,40.71427,-74.00597,days_below_32f,2020,2011,2020,67,89.9,-22.900000000000006,completed
+New York,New York,40.71427,-74.00597,days_above_90f,2021,2011,2020,9,8.1,0.9000000000000004,completed
+New York,New York,40.71427,-74.00597,days_below_32f,2021,2011,2020,82,89.9,-7.900000000000006,completed
+New York,New York,40.71427,-74.00597,days_above_90f,2022,2011,2020,20,8.1,11.9,completed
+New York,New York,40.71427,-74.00597,days_below_32f,2022,2011,2020,87,89.9,-2.9000000000000057,completed
+New York,New York,40.71427,-74.00597,days_above_90f,2023,2011,2020,8,8.1,-0.09999999999999964,completed
+New York,New York,40.71427,-74.00597,days_below_32f,2023,2011,2020,75,89.9,-14.900000000000006,completed
+New York,New York,40.71427,-74.00597,days_above_90f,2024,2011,2020,18,8.1,9.9,completed
+New York,New York,40.71427,-74.00597,days_below_32f,2024,2011,2020,74,89.9,-15.900000000000006,completed
+Los Angeles,California,34.05223,-118.24368,days_above_90f,2015,2011,2020,69,53.3,15.700000000000003,completed
+Los Angeles,California,34.05223,-118.24368,days_below_32f,2015,2011,2020,1,0.6,0.4,completed
+Los Angeles,California,34.05223,-118.24368,days_above_90f,2016,2011,2020,63,53.3,9.700000000000003,completed
+Los Angeles,California,34.05223,-118.24368,days_below_32f,2016,2011,2020,0,0.6,-0.6,completed
+Los Angeles,California,34.05223,-118.24368,days_above_90f,2017,2011,2020,46,53.3,-7.299999999999997,completed
+Los Angeles,California,34.05223,-118.24368,days_below_32f,2017,2011,2020,0,0.6,-0.6,completed
+Los Angeles,California,34.05223,-118.24368,days_above_90f,2018,2011,2020,35,53.3,-18.299999999999997,completed
+Los Angeles,California,34.05223,-118.24368,days_below_32f,2018,2011,2020,0,0.6,-0.6,completed
+Los Angeles,California,34.05223,-118.24368,days_above_90f,2019,2011,2020,40,53.3,-13.299999999999997,completed
+Los Angeles,California,34.05223,-118.24368,days_below_32f,2019,2011,2020,0,0.6,-0.6,completed
+Los Angeles,California,34.05223,-118.24368,days_above_90f,2020,2011,2020,67,53.3,13.700000000000003,completed
+Los Angeles,California,34.05223,-118.24368,days_below_32f,2020,2011,2020,0,0.6,-0.6,completed
+Los Angeles,California,34.05223,-118.24368,days_above_90f,2021,2011,2020,49,53.3,-4.299999999999997,completed
+Los Angeles,California,34.05223,-118.24368,days_below_32f,2021,2011,2020,0,0.6,-0.6,completed
+Los Angeles,California,34.05223,-118.24368,days_above_90f,2022,2011,2020,50,53.3,-3.299999999999997,completed
+Los Angeles,California,34.05223,-118.24368,days_below_32f,2022,2011,2020,0,0.6,-0.6,completed
+Los Angeles,California,34.05223,-118.24368,days_above_90f,2023,2011,2020,37,53.3,-16.299999999999997,completed
+Los Angeles,California,34.05223,-118.24368,days_below_32f,2023,2011,2020,0,0.6,-0.6,completed
+Los Angeles,California,34.05223,-118.24368,days_above_90f,2024,2011,2020,44,53.3,-9.299999999999997,completed
+Los Angeles,California,34.05223,-118.24368,days_below_32f,2024,2011,2020,0,0.6,-0.6,completed
+Chicago,Illinois,41.85003,-87.65005,days_above_90f,2015,2011,2020,0,6.1,-6.1,completed
+Chicago,Illinois,41.85003,-87.65005,days_below_32f,2015,2011,2020,97,109.6,-12.599999999999994,completed
+Chicago,Illinois,41.85003,-87.65005,days_above_90f,2016,2011,2020,2,6.1,-4.1,completed
+Chicago,Illinois,41.85003,-87.65005,days_below_32f,2016,2011,2020,98,109.6,-11.599999999999994,completed
+Chicago,Illinois,41.85003,-87.65005,days_above_90f,2017,2011,2020,2,6.1,-4.1,completed
+Chicago,Illinois,41.85003,-87.65005,days_below_32f,2017,2011,2020,95,109.6,-14.599999999999994,completed
+Chicago,Illinois,41.85003,-87.65005,days_above_90f,2018,2011,2020,7,6.1,0.9000000000000004,completed
+Chicago,Illinois,41.85003,-87.65005,days_below_32f,2018,2011,2020,136,109.6,26.400000000000006,completed
+Chicago,Illinois,41.85003,-87.65005,days_above_90f,2019,2011,2020,5,6.1,-1.0999999999999996,completed
+Chicago,Illinois,41.85003,-87.65005,days_below_32f,2019,2011,2020,127,109.6,17.400000000000006,completed
+Chicago,Illinois,41.85003,-87.65005,days_above_90f,2020,2011,2020,7,6.1,0.9000000000000004,completed
+Chicago,Illinois,41.85003,-87.65005,days_below_32f,2020,2011,2020,107,109.6,-2.5999999999999943,completed
+Chicago,Illinois,41.85003,-87.65005,days_above_90f,2021,2011,2020,12,6.1,5.9,completed
+Chicago,Illinois,41.85003,-87.65005,days_below_32f,2021,2011,2020,112,109.6,2.4000000000000057,completed
+Chicago,Illinois,41.85003,-87.65005,days_above_90f,2022,2011,2020,9,6.1,2.9000000000000004,completed
+Chicago,Illinois,41.85003,-87.65005,days_below_32f,2022,2011,2020,114,109.6,4.400000000000006,completed
+Chicago,Illinois,41.85003,-87.65005,days_above_90f,2023,2011,2020,5,6.1,-1.0999999999999996,completed
+Chicago,Illinois,41.85003,-87.65005,days_below_32f,2023,2011,2020,89,109.6,-20.599999999999994,completed
+Chicago,Illinois,41.85003,-87.65005,days_above_90f,2024,2011,2020,12,6.1,5.9,completed
+Chicago,Illinois,41.85003,-87.65005,days_below_32f,2024,2011,2020,88,109.6,-21.599999999999994,completed
+Houston,Texas,29.76328,-95.36327,days_above_90f,2015,2011,2020,58,65.8,-7.799999999999997,completed
+Houston,Texas,29.76328,-95.36327,days_below_32f,2015,2011,2020,3,4.9,-1.9000000000000004,completed
+Houston,Texas,29.76328,-95.36327,days_above_90f,2016,2011,2020,49,65.8,-16.799999999999997,completed
+Houston,Texas,29.76328,-95.36327,days_below_32f,2016,2011,2020,0,4.9,-4.9,completed
+Houston,Texas,29.76328,-95.36327,days_above_90f,2017,2011,2020,21,65.8,-44.8,completed
+Houston,Texas,29.76328,-95.36327,days_below_32f,2017,2011,2020,5,4.9,0.09999999999999964,completed
+Houston,Texas,29.76328,-95.36327,days_above_90f,2018,2011,2020,58,65.8,-7.799999999999997,completed
+Houston,Texas,29.76328,-95.36327,days_below_32f,2018,2011,2020,12,4.9,7.1,completed
+Houston,Texas,29.76328,-95.36327,days_above_90f,2019,2011,2020,56,65.8,-9.799999999999997,completed
+Houston,Texas,29.76328,-95.36327,days_below_32f,2019,2011,2020,3,4.9,-1.9000000000000004,completed
+Houston,Texas,29.76328,-95.36327,days_above_90f,2020,2011,2020,56,65.8,-9.799999999999997,completed
+Houston,Texas,29.76328,-95.36327,days_below_32f,2020,2011,2020,1,4.9,-3.9000000000000004,completed
+Houston,Texas,29.76328,-95.36327,days_above_90f,2021,2011,2020,24,65.8,-41.8,completed
+Houston,Texas,29.76328,-95.36327,days_below_32f,2021,2011,2020,8,4.9,3.0999999999999996,completed
+Houston,Texas,29.76328,-95.36327,days_above_90f,2022,2011,2020,93,65.8,27.200000000000003,completed
+Houston,Texas,29.76328,-95.36327,days_below_32f,2022,2011,2020,13,4.9,8.1,completed
+Houston,Texas,29.76328,-95.36327,days_above_90f,2023,2011,2020,104,65.8,38.2,completed
+Houston,Texas,29.76328,-95.36327,days_below_32f,2023,2011,2020,0,4.9,-4.9,completed
+Houston,Texas,29.76328,-95.36327,days_above_90f,2024,2011,2020,66,65.8,0.20000000000000284,completed
+Houston,Texas,29.76328,-95.36327,days_below_32f,2024,2011,2020,4,4.9,-0.9000000000000004,completed
+Phoenix,Arizona,33.44838,-112.07404,days_above_90f,2015,2011,2020,153,166.1,-13.099999999999994,completed
+Phoenix,Arizona,33.44838,-112.07404,days_below_32f,2015,2011,2020,10,4.5,5.5,completed
+Phoenix,Arizona,33.44838,-112.07404,days_above_90f,2016,2011,2020,166,166.1,-0.09999999999999432,completed
+Phoenix,Arizona,33.44838,-112.07404,days_below_32f,2016,2011,2020,2,4.5,-2.5,completed
+Phoenix,Arizona,33.44838,-112.07404,days_above_90f,2017,2011,2020,187,166.1,20.900000000000006,completed
+Phoenix,Arizona,33.44838,-112.07404,days_below_32f,2017,2011,2020,0,4.5,-4.5,completed
+Phoenix,Arizona,33.44838,-112.07404,days_above_90f,2018,2011,2020,168,166.1,1.9000000000000057,completed
+Phoenix,Arizona,33.44838,-112.07404,days_below_32f,2018,2011,2020,0,4.5,-4.5,completed
+Phoenix,Arizona,33.44838,-112.07404,days_above_90f,2019,2011,2020,144,166.1,-22.099999999999994,completed
+Phoenix,Arizona,33.44838,-112.07404,days_below_32f,2019,2011,2020,5,4.5,0.5,completed
+Phoenix,Arizona,33.44838,-112.07404,days_above_90f,2020,2011,2020,187,166.1,20.900000000000006,completed
+Phoenix,Arizona,33.44838,-112.07404,days_below_32f,2020,2011,2020,3,4.5,-1.5,completed
+Phoenix,Arizona,33.44838,-112.07404,days_above_90f,2021,2011,2020,163,166.1,-3.0999999999999943,completed
+Phoenix,Arizona,33.44838,-112.07404,days_below_32f,2021,2011,2020,0,4.5,-4.5,completed
+Phoenix,Arizona,33.44838,-112.07404,days_above_90f,2022,2011,2020,175,166.1,8.900000000000006,completed
+Phoenix,Arizona,33.44838,-112.07404,days_below_32f,2022,2011,2020,0,4.5,-4.5,completed
+Phoenix,Arizona,33.44838,-112.07404,days_above_90f,2023,2011,2020,175,166.1,8.900000000000006,completed
+Phoenix,Arizona,33.44838,-112.07404,days_below_32f,2023,2011,2020,2,4.5,-2.5,completed
+Phoenix,Arizona,33.44838,-112.07404,days_above_90f,2024,2011,2020,181,166.1,14.900000000000006,completed
+Phoenix,Arizona,33.44838,-112.07404,days_below_32f,2024,2011,2020,4,4.5,-0.5,completed
+Philadelphia,Pennsylvania,39.95238,-75.16362,days_above_90f,2015,2011,2020,13,17.4,-4.399999999999999,completed
+Philadelphia,Pennsylvania,39.95238,-75.16362,days_below_32f,2015,2011,2020,85,82.1,2.9000000000000057,completed
+Philadelphia,Pennsylvania,39.95238,-75.16362,days_above_90f,2016,2011,2020,25,17.4,7.600000000000001,completed
+Philadelphia,Pennsylvania,39.95238,-75.16362,days_below_32f,2016,2011,2020,74,82.1,-8.099999999999994,completed
+Philadelphia,Pennsylvania,39.95238,-75.16362,days_above_90f,2017,2011,2020,13,17.4,-4.399999999999999,completed
+Philadelphia,Pennsylvania,39.95238,-75.16362,days_below_32f,2017,2011,2020,74,82.1,-8.099999999999994,completed
+Philadelphia,Pennsylvania,39.95238,-75.16362,days_above_90f,2018,2011,2020,14,17.4,-3.3999999999999986,completed
+Philadelphia,Pennsylvania,39.95238,-75.16362,days_below_32f,2018,2011,2020,90,82.1,7.900000000000006,completed
+Philadelphia,Pennsylvania,39.95238,-75.16362,days_above_90f,2019,2011,2020,17,17.4,-0.3999999999999986,completed
+Philadelphia,Pennsylvania,39.95238,-75.16362,days_below_32f,2019,2011,2020,98,82.1,15.900000000000006,completed
+Philadelphia,Pennsylvania,39.95238,-75.16362,days_above_90f,2020,2011,2020,22,17.4,4.600000000000001,completed
+Philadelphia,Pennsylvania,39.95238,-75.16362,days_below_32f,2020,2011,2020,57,82.1,-25.099999999999994,completed
+Philadelphia,Pennsylvania,39.95238,-75.16362,days_above_90f,2021,2011,2020,21,17.4,3.6000000000000014,completed
+Philadelphia,Pennsylvania,39.95238,-75.16362,days_below_32f,2021,2011,2020,78,82.1,-4.099999999999994,completed
+Philadelphia,Pennsylvania,39.95238,-75.16362,days_above_90f,2022,2011,2020,26,17.4,8.600000000000001,completed
+Philadelphia,Pennsylvania,39.95238,-75.16362,days_below_32f,2022,2011,2020,94,82.1,11.900000000000006,completed
+Philadelphia,Pennsylvania,39.95238,-75.16362,days_above_90f,2023,2011,2020,25,17.4,7.600000000000001,completed
+Philadelphia,Pennsylvania,39.95238,-75.16362,days_below_32f,2023,2011,2020,51,82.1,-31.099999999999994,completed
+Philadelphia,Pennsylvania,39.95238,-75.16362,days_above_90f,2024,2011,2020,27,17.4,9.600000000000001,completed
+Philadelphia,Pennsylvania,39.95238,-75.16362,days_below_32f,2024,2011,2020,68,82.1,-14.099999999999994,completed
+San Antonio,Texas,29.42412,-98.49363,days_above_90f,2015,2011,2020,79,104.1,-25.099999999999994,completed
+San Antonio,Texas,29.42412,-98.49363,days_below_32f,2015,2011,2020,3,5.3,-2.3,completed
+San Antonio,Texas,29.42412,-98.49363,days_above_90f,2016,2011,2020,63,104.1,-41.099999999999994,completed
+San Antonio,Texas,29.42412,-98.49363,days_below_32f,2016,2011,2020,2,5.3,-3.3,completed
+San Antonio,Texas,29.42412,-98.49363,days_above_90f,2017,2011,2020,91,104.1,-13.099999999999994,completed
+San Antonio,Texas,29.42412,-98.49363,days_below_32f,2017,2011,2020,5,5.3,-0.2999999999999998,completed
+San Antonio,Texas,29.42412,-98.49363,days_above_90f,2018,2011,2020,99,104.1,-5.099999999999994,completed
+San Antonio,Texas,29.42412,-98.49363,days_below_32f,2018,2011,2020,7,5.3,1.7000000000000002,completed
+San Antonio,Texas,29.42412,-98.49363,days_above_90f,2019,2011,2020,127,104.1,22.900000000000006,completed
+San Antonio,Texas,29.42412,-98.49363,days_below_32f,2019,2011,2020,4,5.3,-1.2999999999999998,completed
+San Antonio,Texas,29.42412,-98.49363,days_above_90f,2020,2011,2020,108,104.1,3.9000000000000057,completed
+San Antonio,Texas,29.42412,-98.49363,days_below_32f,2020,2011,2020,2,5.3,-3.3,completed
+San Antonio,Texas,29.42412,-98.49363,days_above_90f,2021,2011,2020,81,104.1,-23.099999999999994,completed
+San Antonio,Texas,29.42412,-98.49363,days_below_32f,2021,2011,2020,11,5.3,5.7,completed
+San Antonio,Texas,29.42412,-98.49363,days_above_90f,2022,2011,2020,145,104.1,40.900000000000006,completed
+San Antonio,Texas,29.42412,-98.49363,days_below_32f,2022,2011,2020,15,5.3,9.7,completed
+San Antonio,Texas,29.42412,-98.49363,days_above_90f,2023,2011,2020,127,104.1,22.900000000000006,completed
+San Antonio,Texas,29.42412,-98.49363,days_below_32f,2023,2011,2020,0,5.3,-5.3,completed
+San Antonio,Texas,29.42412,-98.49363,days_above_90f,2024,2011,2020,128,104.1,23.900000000000006,completed
+San Antonio,Texas,29.42412,-98.49363,days_below_32f,2024,2011,2020,5,5.3,-0.2999999999999998,completed
+San Diego,California,32.71571,-117.16472,days_above_90f,2015,2011,2020,8,2.8,5.2,completed
+San Diego,California,32.71571,-117.16472,days_below_32f,2015,2011,2020,0,0.0,0.0,completed
+San Diego,California,32.71571,-117.16472,days_above_90f,2016,2011,2020,4,2.8,1.2000000000000002,completed
+San Diego,California,32.71571,-117.16472,days_below_32f,2016,2011,2020,0,0.0,0.0,completed
+San Diego,California,32.71571,-117.16472,days_above_90f,2017,2011,2020,2,2.8,-0.7999999999999998,completed
+San Diego,California,32.71571,-117.16472,days_below_32f,2017,2011,2020,0,0.0,0.0,completed
+San Diego,California,32.71571,-117.16472,days_above_90f,2018,2011,2020,1,2.8,-1.7999999999999998,completed
+San Diego,California,32.71571,-117.16472,days_below_32f,2018,2011,2020,0,0.0,0.0,completed
+San Diego,California,32.71571,-117.16472,days_above_90f,2019,2011,2020,1,2.8,-1.7999999999999998,completed
+San Diego,California,32.71571,-117.16472,days_below_32f,2019,2011,2020,0,0.0,0.0,completed
+San Diego,California,32.71571,-117.16472,days_above_90f,2020,2011,2020,2,2.8,-0.7999999999999998,completed
+San Diego,California,32.71571,-117.16472,days_below_32f,2020,2011,2020,0,0.0,0.0,completed
+San Diego,California,32.71571,-117.16472,days_above_90f,2021,2011,2020,0,2.8,-2.8,completed
+San Diego,California,32.71571,-117.16472,days_below_32f,2021,2011,2020,0,0.0,0.0,completed
+San Diego,California,32.71571,-117.16472,days_above_90f,2022,2011,2020,5,2.8,2.2,completed
+San Diego,California,32.71571,-117.16472,days_below_32f,2022,2011,2020,0,0.0,0.0,completed
+San Diego,California,32.71571,-117.16472,days_above_90f,2023,2011,2020,0,2.8,-2.8,completed
+San Diego,California,32.71571,-117.16472,days_below_32f,2023,2011,2020,0,0.0,0.0,completed
+San Diego,California,32.71571,-117.16472,days_above_90f,2024,2011,2020,2,2.8,-0.7999999999999998,completed
+San Diego,California,32.71571,-117.16472,days_below_32f,2024,2011,2020,0,0.0,0.0,completed
+Dallas,Texas,32.78306,-96.80667,days_above_90f,2015,2011,2020,92,89.1,2.9000000000000057,completed
+Dallas,Texas,32.78306,-96.80667,days_below_32f,2015,2011,2020,19,19.0,0.0,completed
+Dallas,Texas,32.78306,-96.80667,days_above_90f,2016,2011,2020,73,89.1,-16.099999999999994,completed
+Dallas,Texas,32.78306,-96.80667,days_below_32f,2016,2011,2020,12,19.0,-7.0,completed
+Dallas,Texas,32.78306,-96.80667,days_above_90f,2017,2011,2020,69,89.1,-20.099999999999994,completed
+Dallas,Texas,32.78306,-96.80667,days_below_32f,2017,2011,2020,9,19.0,-10.0,completed
+Dallas,Texas,32.78306,-96.80667,days_above_90f,2018,2011,2020,96,89.1,6.900000000000006,completed
+Dallas,Texas,32.78306,-96.80667,days_below_32f,2018,2011,2020,28,19.0,9.0,completed
+Dallas,Texas,32.78306,-96.80667,days_above_90f,2019,2011,2020,87,89.1,-2.0999999999999943,completed
+Dallas,Texas,32.78306,-96.80667,days_below_32f,2019,2011,2020,21,19.0,2.0,completed
+Dallas,Texas,32.78306,-96.80667,days_above_90f,2020,2011,2020,79,89.1,-10.099999999999994,completed
+Dallas,Texas,32.78306,-96.80667,days_below_32f,2020,2011,2020,7,19.0,-12.0,completed
+Dallas,Texas,32.78306,-96.80667,days_above_90f,2021,2011,2020,69,89.1,-20.099999999999994,completed
+Dallas,Texas,32.78306,-96.80667,days_below_32f,2021,2011,2020,15,19.0,-4.0,completed
+Dallas,Texas,32.78306,-96.80667,days_above_90f,2022,2011,2020,114,89.1,24.900000000000006,completed
+Dallas,Texas,32.78306,-96.80667,days_below_32f,2022,2011,2020,36,19.0,17.0,completed
+Dallas,Texas,32.78306,-96.80667,days_above_90f,2023,2011,2020,106,89.1,16.900000000000006,completed
+Dallas,Texas,32.78306,-96.80667,days_below_32f,2023,2011,2020,10,19.0,-9.0,completed
+Dallas,Texas,32.78306,-96.80667,days_above_90f,2024,2011,2020,99,89.1,9.900000000000006,completed
+Dallas,Texas,32.78306,-96.80667,days_below_32f,2024,2011,2020,10,19.0,-9.0,completed
+San Jose,California,37.33939,-121.89496,days_above_90f,2015,2011,2020,25,19.8,5.199999999999999,completed
+San Jose,California,37.33939,-121.89496,days_below_32f,2015,2011,2020,0,0.8,-0.8,completed
+San Jose,California,37.33939,-121.89496,days_above_90f,2016,2011,2020,22,19.8,2.1999999999999993,completed
+San Jose,California,37.33939,-121.89496,days_below_32f,2016,2011,2020,0,0.8,-0.8,completed
+San Jose,California,37.33939,-121.89496,days_above_90f,2017,2011,2020,23,19.8,3.1999999999999993,completed
+San Jose,California,37.33939,-121.89496,days_below_32f,2017,2011,2020,0,0.8,-0.8,completed
+San Jose,California,37.33939,-121.89496,days_above_90f,2018,2011,2020,3,19.8,-16.8,completed
+San Jose,California,37.33939,-121.89496,days_below_32f,2018,2011,2020,2,0.8,1.2,completed
+San Jose,California,37.33939,-121.89496,days_above_90f,2019,2011,2020,16,19.8,-3.8000000000000007,completed
+San Jose,California,37.33939,-121.89496,days_below_32f,2019,2011,2020,0,0.8,-0.8,completed
+San Jose,California,37.33939,-121.89496,days_above_90f,2020,2011,2020,35,19.8,15.2,completed
+San Jose,California,37.33939,-121.89496,days_below_32f,2020,2011,2020,0,0.8,-0.8,completed
+San Jose,California,37.33939,-121.89496,days_above_90f,2021,2011,2020,16,19.8,-3.8000000000000007,completed
+San Jose,California,37.33939,-121.89496,days_below_32f,2021,2011,2020,0,0.8,-0.8,completed
+San Jose,California,37.33939,-121.89496,days_above_90f,2022,2011,2020,19,19.8,-0.8000000000000007,completed
+San Jose,California,37.33939,-121.89496,days_below_32f,2022,2011,2020,1,0.8,0.19999999999999996,completed
+San Jose,California,37.33939,-121.89496,days_above_90f,2023,2011,2020,17,19.8,-2.8000000000000007,completed
+San Jose,California,37.33939,-121.89496,days_below_32f,2023,2011,2020,1,0.8,0.19999999999999996,completed
+San Jose,California,37.33939,-121.89496,days_above_90f,2024,2011,2020,40,19.8,20.2,completed
+San Jose,California,37.33939,-121.89496,days_below_32f,2024,2011,2020,0,0.8,-0.8,completed
+Austin,Texas,30.26715,-97.74306,days_above_90f,2015,2011,2020,83,95.7,-12.700000000000003,completed
+Austin,Texas,30.26715,-97.74306,days_below_32f,2015,2011,2020,7,8.5,-1.5,completed
+Austin,Texas,30.26715,-97.74306,days_above_90f,2016,2011,2020,75,95.7,-20.700000000000003,completed
+Austin,Texas,30.26715,-97.74306,days_below_32f,2016,2011,2020,3,8.5,-5.5,completed
+Austin,Texas,30.26715,-97.74306,days_above_90f,2017,2011,2020,73,95.7,-22.700000000000003,completed
+Austin,Texas,30.26715,-97.74306,days_below_32f,2017,2011,2020,5,8.5,-3.5,completed
+Austin,Texas,30.26715,-97.74306,days_above_90f,2018,2011,2020,96,95.7,0.29999999999999716,completed
+Austin,Texas,30.26715,-97.74306,days_below_32f,2018,2011,2020,11,8.5,2.5,completed
+Austin,Texas,30.26715,-97.74306,days_above_90f,2019,2011,2020,112,95.7,16.299999999999997,completed
+Austin,Texas,30.26715,-97.74306,days_below_32f,2019,2011,2020,8,8.5,-0.5,completed
+Austin,Texas,30.26715,-97.74306,days_above_90f,2020,2011,2020,92,95.7,-3.700000000000003,completed
+Austin,Texas,30.26715,-97.74306,days_below_32f,2020,2011,2020,2,8.5,-6.5,completed
+Austin,Texas,30.26715,-97.74306,days_above_90f,2021,2011,2020,69,95.7,-26.700000000000003,completed
+Austin,Texas,30.26715,-97.74306,days_below_32f,2021,2011,2020,12,8.5,3.5,completed
+Austin,Texas,30.26715,-97.74306,days_above_90f,2022,2011,2020,133,95.7,37.3,completed
+Austin,Texas,30.26715,-97.74306,days_below_32f,2022,2011,2020,22,8.5,13.5,completed
+Austin,Texas,30.26715,-97.74306,days_above_90f,2023,2011,2020,119,95.7,23.299999999999997,completed
+Austin,Texas,30.26715,-97.74306,days_below_32f,2023,2011,2020,3,8.5,-5.5,completed
+Austin,Texas,30.26715,-97.74306,days_above_90f,2024,2011,2020,109,95.7,13.299999999999997,completed
+Austin,Texas,30.26715,-97.74306,days_below_32f,2024,2011,2020,6,8.5,-2.5,completed
+Jacksonville,Florida,30.33218,-81.65565,days_above_90f,2015,2011,2020,43,36.4,6.600000000000001,completed
+Jacksonville,Florida,30.33218,-81.65565,days_below_32f,2015,2011,2020,3,2.1,0.8999999999999999,completed
+Jacksonville,Florida,30.33218,-81.65565,days_above_90f,2016,2011,2020,63,36.4,26.6,completed
+Jacksonville,Florida,30.33218,-81.65565,days_below_32f,2016,2011,2020,1,2.1,-1.1,completed
+Jacksonville,Florida,30.33218,-81.65565,days_above_90f,2017,2011,2020,15,36.4,-21.4,completed
+Jacksonville,Florida,30.33218,-81.65565,days_below_32f,2017,2011,2020,1,2.1,-1.1,completed
+Jacksonville,Florida,30.33218,-81.65565,days_above_90f,2018,2011,2020,14,36.4,-22.4,completed
+Jacksonville,Florida,30.33218,-81.65565,days_below_32f,2018,2011,2020,8,2.1,5.9,completed
+Jacksonville,Florida,30.33218,-81.65565,days_above_90f,2019,2011,2020,42,36.4,5.600000000000001,completed
+Jacksonville,Florida,30.33218,-81.65565,days_below_32f,2019,2011,2020,0,2.1,-2.1,completed
+Jacksonville,Florida,30.33218,-81.65565,days_above_90f,2020,2011,2020,42,36.4,5.600000000000001,completed
+Jacksonville,Florida,30.33218,-81.65565,days_below_32f,2020,2011,2020,1,2.1,-1.1,completed
+Jacksonville,Florida,30.33218,-81.65565,days_above_90f,2021,2011,2020,8,36.4,-28.4,completed
+Jacksonville,Florida,30.33218,-81.65565,days_below_32f,2021,2011,2020,0,2.1,-2.1,completed
+Jacksonville,Florida,30.33218,-81.65565,days_above_90f,2022,2011,2020,38,36.4,1.6000000000000014,completed
+Jacksonville,Florida,30.33218,-81.65565,days_below_32f,2022,2011,2020,4,2.1,1.9,completed
+Jacksonville,Florida,30.33218,-81.65565,days_above_90f,2023,2011,2020,47,36.4,10.600000000000001,completed
+Jacksonville,Florida,30.33218,-81.65565,days_below_32f,2023,2011,2020,0,2.1,-2.1,completed
+Jacksonville,Florida,30.33218,-81.65565,days_above_90f,2024,2011,2020,52,36.4,15.600000000000001,completed
+Jacksonville,Florida,30.33218,-81.65565,days_below_32f,2024,2011,2020,2,2.1,-0.10000000000000009,completed
+Fort Worth,Texas,32.72541,-97.32085,days_above_90f,2015,2011,2020,92,93.6,-1.5999999999999943,completed
+Fort Worth,Texas,32.72541,-97.32085,days_below_32f,2015,2011,2020,26,20.7,5.300000000000001,completed
+Fort Worth,Texas,32.72541,-97.32085,days_above_90f,2016,2011,2020,79,93.6,-14.599999999999994,completed
+Fort Worth,Texas,32.72541,-97.32085,days_below_32f,2016,2011,2020,17,20.7,-3.6999999999999993,completed
+Fort Worth,Texas,32.72541,-97.32085,days_above_90f,2017,2011,2020,73,93.6,-20.599999999999994,completed
+Fort Worth,Texas,32.72541,-97.32085,days_below_32f,2017,2011,2020,8,20.7,-12.7,completed
+Fort Worth,Texas,32.72541,-97.32085,days_above_90f,2018,2011,2020,104,93.6,10.400000000000006,completed
+Fort Worth,Texas,32.72541,-97.32085,days_below_32f,2018,2011,2020,24,20.7,3.3000000000000007,completed
+Fort Worth,Texas,32.72541,-97.32085,days_above_90f,2019,2011,2020,89,93.6,-4.599999999999994,completed
+Fort Worth,Texas,32.72541,-97.32085,days_below_32f,2019,2011,2020,19,20.7,-1.6999999999999993,completed
+Fort Worth,Texas,32.72541,-97.32085,days_above_90f,2020,2011,2020,95,93.6,1.4000000000000057,completed
+Fort Worth,Texas,32.72541,-97.32085,days_below_32f,2020,2011,2020,8,20.7,-12.7,completed
+Fort Worth,Texas,32.72541,-97.32085,days_above_90f,2021,2011,2020,77,93.6,-16.599999999999994,completed
+Fort Worth,Texas,32.72541,-97.32085,days_below_32f,2021,2011,2020,15,20.7,-5.699999999999999,completed
+Fort Worth,Texas,32.72541,-97.32085,days_above_90f,2022,2011,2020,119,93.6,25.400000000000006,completed
+Fort Worth,Texas,32.72541,-97.32085,days_below_32f,2022,2011,2020,34,20.7,13.3,completed
+Fort Worth,Texas,32.72541,-97.32085,days_above_90f,2023,2011,2020,114,93.6,20.400000000000006,completed
+Fort Worth,Texas,32.72541,-97.32085,days_below_32f,2023,2011,2020,9,20.7,-11.7,completed
+Fort Worth,Texas,32.72541,-97.32085,days_above_90f,2024,2011,2020,108,93.6,14.400000000000006,completed
+Fort Worth,Texas,32.72541,-97.32085,days_below_32f,2024,2011,2020,11,20.7,-9.7,completed
+Columbus,Ohio,39.96118,-82.99879,days_above_90f,2015,2011,2020,0,7.0,-7.0,completed
+Columbus,Ohio,39.96118,-82.99879,days_below_32f,2015,2011,2020,90,103.8,-13.799999999999997,completed
+Columbus,Ohio,39.96118,-82.99879,days_above_90f,2016,2011,2020,5,7.0,-2.0,completed
+Columbus,Ohio,39.96118,-82.99879,days_below_32f,2016,2011,2020,103,103.8,-0.7999999999999972,completed
+Columbus,Ohio,39.96118,-82.99879,days_above_90f,2017,2011,2020,1,7.0,-6.0,completed
+Columbus,Ohio,39.96118,-82.99879,days_below_32f,2017,2011,2020,93,103.8,-10.799999999999997,completed
+Columbus,Ohio,39.96118,-82.99879,days_above_90f,2018,2011,2020,0,7.0,-7.0,completed
+Columbus,Ohio,39.96118,-82.99879,days_below_32f,2018,2011,2020,115,103.8,11.200000000000003,completed
+Columbus,Ohio,39.96118,-82.99879,days_above_90f,2019,2011,2020,11,7.0,4.0,completed
+Columbus,Ohio,39.96118,-82.99879,days_below_32f,2019,2011,2020,112,103.8,8.200000000000003,completed
+Columbus,Ohio,39.96118,-82.99879,days_above_90f,2020,2011,2020,9,7.0,2.0,completed
+Columbus,Ohio,39.96118,-82.99879,days_below_32f,2020,2011,2020,95,103.8,-8.799999999999997,completed
+Columbus,Ohio,39.96118,-82.99879,days_above_90f,2021,2011,2020,7,7.0,0.0,completed
+Columbus,Ohio,39.96118,-82.99879,days_below_32f,2021,2011,2020,103,103.8,-0.7999999999999972,completed
+Columbus,Ohio,39.96118,-82.99879,days_above_90f,2022,2011,2020,9,7.0,2.0,completed
+Columbus,Ohio,39.96118,-82.99879,days_below_32f,2022,2011,2020,107,103.8,3.200000000000003,completed
+Columbus,Ohio,39.96118,-82.99879,days_above_90f,2023,2011,2020,7,7.0,0.0,completed
+Columbus,Ohio,39.96118,-82.99879,days_below_32f,2023,2011,2020,81,103.8,-22.799999999999997,completed
+Columbus,Ohio,39.96118,-82.99879,days_above_90f,2024,2011,2020,14,7.0,7.0,completed
+Columbus,Ohio,39.96118,-82.99879,days_below_32f,2024,2011,2020,78,103.8,-25.799999999999997,completed
+Indianapolis,Indiana,39.76838,-86.15804,days_above_90f,2015,2011,2020,1,11.2,-10.2,completed
+Indianapolis,Indiana,39.76838,-86.15804,days_below_32f,2015,2011,2020,89,98.1,-9.099999999999994,completed
+Indianapolis,Indiana,39.76838,-86.15804,days_above_90f,2016,2011,2020,5,11.2,-6.199999999999999,completed
+Indianapolis,Indiana,39.76838,-86.15804,days_below_32f,2016,2011,2020,82,98.1,-16.099999999999994,completed
+Indianapolis,Indiana,39.76838,-86.15804,days_above_90f,2017,2011,2020,5,11.2,-6.199999999999999,completed
+Indianapolis,Indiana,39.76838,-86.15804,days_below_32f,2017,2011,2020,86,98.1,-12.099999999999994,completed
+Indianapolis,Indiana,39.76838,-86.15804,days_above_90f,2018,2011,2020,13,11.2,1.8000000000000007,completed
+Indianapolis,Indiana,39.76838,-86.15804,days_below_32f,2018,2011,2020,118,98.1,19.900000000000006,completed
+Indianapolis,Indiana,39.76838,-86.15804,days_above_90f,2019,2011,2020,6,11.2,-5.199999999999999,completed
+Indianapolis,Indiana,39.76838,-86.15804,days_below_32f,2019,2011,2020,115,98.1,16.900000000000006,completed
+Indianapolis,Indiana,39.76838,-86.15804,days_above_90f,2020,2011,2020,11,11.2,-0.1999999999999993,completed
+Indianapolis,Indiana,39.76838,-86.15804,days_below_32f,2020,2011,2020,89,98.1,-9.099999999999994,completed
+Indianapolis,Indiana,39.76838,-86.15804,days_above_90f,2021,2011,2020,12,11.2,0.8000000000000007,completed
+Indianapolis,Indiana,39.76838,-86.15804,days_below_32f,2021,2011,2020,96,98.1,-2.0999999999999943,completed
+Indianapolis,Indiana,39.76838,-86.15804,days_above_90f,2022,2011,2020,16,11.2,4.800000000000001,completed
+Indianapolis,Indiana,39.76838,-86.15804,days_below_32f,2022,2011,2020,103,98.1,4.900000000000006,completed
+Indianapolis,Indiana,39.76838,-86.15804,days_above_90f,2023,2011,2020,12,11.2,0.8000000000000007,completed
+Indianapolis,Indiana,39.76838,-86.15804,days_below_32f,2023,2011,2020,80,98.1,-18.099999999999994,completed
+Indianapolis,Indiana,39.76838,-86.15804,days_above_90f,2024,2011,2020,13,11.2,1.8000000000000007,completed
+Indianapolis,Indiana,39.76838,-86.15804,days_below_32f,2024,2011,2020,80,98.1,-18.099999999999994,completed
