@@ -6,26 +6,19 @@
     <title>Dashboard</title>
   </head>
   <body>
-    <h1>Weather Query Dashboard</h1>
+    <h1>Weather Dashboard</h1>
+    <nav style="margin-bottom: 1.5rem;">
+    <a href="{% url 'weather:submit' %}">Request New Query</a> |
+    <a href="{% url 'weather:submit_data' %}">Submit Data</a> |
+    <a href="/admin/" target="_blank">Admin</a>
+  </nav>
 
     <p>Total queries: <strong>{{ queries|length }}</strong></p>
 
-    {% if queries %}
-      <ul>
-        {% for q in queries %}
-          <li>
-            {{ q.location.name }} — {{ q.get_metric_display }} — {{ q.target_year }}
-            ({{ q.get_status_display }})
-          </li>
-        {% endfor %}
-      </ul>
-    {% else %}
-      <p>No queries yet.</p>
-    {% endif %}
 
     <h2>Status breakdown</h2>
 
-    <canvas id="statusChart"  height="120"></canvas>
+    <canvas id="statusChart"  height="30"></canvas>
     {{ status_labels|json_script:"status-labels" }}
     {{ status_values|json_script:"status-values" }}
 
@@ -34,7 +27,7 @@
     {{ time_values|json_script:"time-values" }}
     
 
-    <canvas id="timeChart"  height="120"></canvas>
+    <canvas id="timeChart"  height="30"></canvas>
 
     <form method="get" style="margin-bottom: 1rem;">
       <label>
@@ -71,6 +64,7 @@
     <canvas id="deltaChart" height="140"></canvas>
     {{ delta_labels|json_script:"delta-labels" }}
     {{ delta_values|json_script:"delta-values" }}
+    {{ selected_metric_label|json_script:"selected-metric-label" }}
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="{% static 'weather/dashboard.js' %}"></script> 

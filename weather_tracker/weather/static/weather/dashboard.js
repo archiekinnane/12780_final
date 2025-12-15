@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const canvas = document.getElementById("statusChart");
     const time_canvas = document.getElementById("timeChart");
     const deltaChart = document.getElementById("deltaChart");
+    const selectedMetricLabel = readJsonScript("selected-metric-label") || "Metric";
     console.log("canvases:", { canvas, time_canvas, deltaChart });
     console.log("Chart typeof:", typeof Chart);
 
@@ -93,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
       labels: delta_labels,
       datasets: [
         {
-          label: "Change in "+ "{{ selected_metric }}" + " over time",
+          label: `Change in ${selectedMetricLabel} by location`,
           data: delta_values,
         },
       ],
