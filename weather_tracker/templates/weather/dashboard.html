@@ -33,14 +33,49 @@
     {{ time_labels|json_script:"time-labels" }}
     {{ time_values|json_script:"time-values" }}
     
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="{% static 'weather/dashboard.js' %}"></script> 
 
     <canvas id="timeChart"  height="120"></canvas>
 
+    <form method="get" style="margin-bottom: 1rem;">
+      <label>
+        Metric:
+        <select name="metric">
+          {% for value,label in metric_options %}
+            <option value="{{ value }}" {% if value == selected_metric %}selected{% endif %}>
+              {{ label }}
+            </option>
+          {% endfor %}
+        </select>
+      </label>
 
-    <p>debug dates: {{ time_labels }}</p>
-    <p>debug dates counts: {{ time_values }}</p>
+      <label style="margin-left: 1rem;">
+        Year:
+        <select name="year">
+          {% for y in year_options %}
+            <option value="{{ y }}" {% if y == selected_year %}selected{% endif %}>
+              {{ y }}
+            </option>
+          {% endfor %}
+        </select>
+      </label>
+
+      <button type="submit" style="margin-left: 1rem;">Update</button>
+    </form>
+
+    <h2>Change vs baseline by location</h2>
+    <p style="margin-top:0;">
+      Showing change in <strong>{{ selected_metric }}</strong> for <strong>{{ selected_year }}</strong>
+      vs baseline <strong>{{ queries.0.baseline_start_year }}–{{ queries.0.baseline_end_year }}</strong>
+    </p>
+
+    <canvas id="deltaChart" height="140"></canvas>
+    {{ delta_labels|json_script:"delta-labels" }}
+    {{ delta_values|json_script:"delta-values" }}
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="{% static 'weather/dashboard.js' %}"></script> 
+
+
 
   </body>
 </html>

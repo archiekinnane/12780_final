@@ -2,6 +2,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const canvas = document.getElementById("statusChart");
     const time_canvas = document.getElementById("timeChart");
+    const deltaChart = document.getElementById("deltaChart");
+    console.log("canvases:", { canvas, time_canvas, deltaChart });
+    console.log("Chart typeof:", typeof Chart);
 
 
   // Helper function
@@ -79,4 +82,34 @@ document.addEventListener("DOMContentLoaded", () => {
     },
   });
 
+// Deltas by location 
+  const delta_labels = readJsonScript("delta-labels");
+  const delta_values = readJsonScript("delta-values");
+
+
+  new Chart(deltaChart, {
+    type: "bar",
+    data: {
+      labels: delta_labels,
+      datasets: [
+        {
+          label: "Change in "+ "{{ selected_metric }}" + " over time",
+          data: delta_values,
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      scales: {
+        y: {
+          ticks: { precision: 0 },
+        },
+      },
+    },
+  });
+
+
+
+
 });
+
