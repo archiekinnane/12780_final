@@ -132,6 +132,36 @@ A central dashboard aggregates all queries and results, presenting summaries and
 - delta_value
 - status
 
+### Entity Relationship Diagram
+```
++--------------------+
+|      Location      |
++--------------------+
+| id (PK)            |
+| name               |
+| latitude           |
+| longitude          |
++--------------------+
+          |
+          | 1
+          |
+          | *
++--------------------+
+|   WeatherQuery     |
++--------------------+
+| id (PK)            |
+| location_id (FK)   |
+| metric             |
+| target_year        |
+| baseline_start_year|
+| baseline_end_year  |
+| target_value       |
+| baseline_avg_value |
+| delta_value        |
+| status             |
++--------------------+
+```
+
 ## Running with Docker
 
 ### Clone Repository
