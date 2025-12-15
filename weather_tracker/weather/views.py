@@ -1,10 +1,13 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import HttpResponse
+
 
 from weather.models import WeatherQuery, Location, StatusEnum, MetricEnum
 from django.db.models import Count
 from django.db.models.functions import TruncDate
 from django.utils.timezone import now
+
+from .forms import WeatherQueryForm, WeatherDataForm
 
 
 
@@ -59,3 +62,29 @@ def dashboard(request):
                     ,"delta_labels": delta_labels
                     ,"delta_values": delta_values
                     })
+                  
+
+def submit_query(request):
+    if request.method == "POST":
+        form = WeatherQueryForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect("weather:submit_success")
+    else:
+        form = WeatherQueryForm()
+
+    return render(request, "weather/submit.html", {"form": form})
+
+def submit_success(request):
+    return render(request, "weather/submit_success.html")
+
+def submit_data(request):
+    if request.method == "POST":
+        form = WeatherDataForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect("weather:submit_success")
+    else:
+        form = WeatherDataForm()
+
+    return render(request, "weather/submit_data.html", {"form": form})
