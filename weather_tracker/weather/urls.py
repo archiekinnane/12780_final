@@ -9,4 +9,6 @@ urlpatterns = [
    path("submit/", views.submit_query, name="submit"),
    path("submit/success/", views.submit_success, name="submit_success"),
    path("submit_data/", views.submit_data, name="submit_data"),
+   path("export/", views.export_page, name="export"),
+    path("export/xlsx/", views.export_xlsx, name="export_xlsx")
 ]

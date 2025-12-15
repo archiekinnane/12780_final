@@ -35,13 +35,12 @@ More metrics can be added in the future.</p>
 <br>
 <p>The dashboard provides some interactive visualizations.</p>
 <br>
-<button> 
-<a href="{% url 'weather:dashboard' %}">Go to Dashboard</a> </button> |
-<button> <a href="{% url 'weather:submit' %}">Submit Weather Query</a> </button> |
-<button><a href="{% url 'weather:submit_data' %}">Submit Weather Data</a> </button>
-| 
-<button><a href="/admin/" >Admin</a></button>
 
+<a href="{% url 'weather:dashboard' %}" class="nes-btn is-primary">Go to Dashboard</a> |
+<a href="{% url 'weather:submit' %}" class="nes-btn is-primary">Submit Weather Query</a> |
+<a href="{% url 'weather:submit_data' %}" class="nes-btn is-primary">Submit Weather Data</a> |
+<a href="{% url 'weather:export' %}" class="nes-btn is-primary">Export Data</a> |
+<a href="/admin/" class="nes-btn is-primary">Admin</a>
 
 
 </body>

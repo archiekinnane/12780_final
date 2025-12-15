@@ -7,6 +7,9 @@
 
 <h1>Submitted!</h1>
 <p>Your entry was saved.</p>
-<p><a href="/submit/">Submit a query</a></p>
-<p><a href="/submit_data/">Submit weather data</a></p>
-<p><a href="/dashboard/">Go to dashboard</a></p>
+
+<a href="{% url 'weather:hello' %}" class="nes-btn is-primary">Home</a> |
+
+<a href="{% url 'weather:dashboard' %}" class="nes-btn is-primary">Go to Dashboard</a> |
+<a href="{% url 'weather:export' %}" class="nes-btn is-primary">Export Data</a> |
+<a href="/admin/" class="nes-btn is-primary">Admin</a>

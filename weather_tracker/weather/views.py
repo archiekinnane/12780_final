@@ -6,6 +6,7 @@ from weather.models import WeatherQuery, Location, StatusEnum, MetricEnum
 from django.db.models import Count
 from django.db.models.functions import TruncDate
 from django.utils.timezone import now
+import openpyxl
 
 from .forms import WeatherQueryForm, WeatherDataForm
 
@@ -88,3 +89,45 @@ def submit_data(request):
         form = WeatherDataForm()
 
     return render(request, "weather/submit_data.html", {"form": form})
+
+def export_page(request):
+    queries = WeatherQuery.objects.select_related("location").order_by(
+        "location__name", "metric", "target_year"
+    )
+
+    return render(request, "weather/export.html", {
+        "queries": queries
+    })
+
+def export_xlsx(request):
+    qs = WeatherQuery.objects.select_related("location").all()
+
+    wb = openpyxl.Workbook()
+    ws = wb.active
+    ws.title = "Weather Data"
+
+    # Header row
+    ws.append(["Location","Metric", "Target Year","Baseline Start", "Baseline End",
+        "Target Value","Baseline Avg", "Delta","Status",
+    ])
+
+    for q in qs:
+        ws.append([
+            q.location.name,
+            q.get_metric_display(),
+            q.target_year,
+            q.baseline_start_year,
+            q.baseline_end_year,
+            q.target_value,
+            q.baseline_avg_value,
+            q.delta_value,
+            q.get_status_display(),
+        ])
+
+    response = HttpResponse(
+        content_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    )
+    response["Content-Disposition"] = 'attachment; filename="weather_data.xlsx"'
+
+    wb.save(response)
+    return response

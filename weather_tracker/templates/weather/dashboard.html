@@ -11,9 +11,12 @@
   <body>
     <h1>Weather Dashboard</h1>
     <nav style="margin-bottom: 1.5rem;">
-    <a href="{% url 'weather:submit' %}">Request New Query</a> |
-    <a href="{% url 'weather:submit_data' %}">Submit Data</a> |
-    <a href="/admin/" target="_blank">Admin</a>
+    <a href="{% url 'weather:hello' %}" class="nes-btn is-primary">Home</a> |
+
+    <a href="{% url 'weather:submit' %}" class="nes-btn is-primary">Request New Query</a> |
+    <a href="{% url 'weather:submit_data' %}" class="nes-btn is-primary">Submit Data</a> |
+    <a href="{% url 'weather:export' %}" class="nes-btn is-primary">Export Data</a> |
+    <a href="/admin/" target="_blank" class="nes-btn is-primary">Admin</a>
   </nav>
 
     <p>Total queries: <strong>{{ queries|length }}</strong></p>

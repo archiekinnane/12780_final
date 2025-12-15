@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facts Chart</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<h1>Export Weather Data</h2>
+
+    
+
+
+<p>
+  This page shows the full dataset currently stored in the system.
+</p>
+
+<a href="{% url 'weather:export_xlsx' %}" class="nes-btn is-primary">
+  Download as Excel
+</a>
+<br> <br>
+<a href="{% url 'weather:hello' %}" class="nes-btn is-secondary">Home</a> |
+    <a href="{% url 'weather:dashboard' %}" class="nes-btn is-secondary">Dashboard</a> |
+    <a href="/admin/" target="_blank" class="nes-btn is-secondary">Admin</a>
+<br><br> 
+{% if queries %}
+  <div class="nes-container is-rounded" style="margin-top:1.5rem;">
+    <table class="nes-table is-bordered is-striped">
+      <thead>
+        <tr>
+          <th>Location</th>
+          <th>Metric</th>
+          <th>Target Year</th>
+          <th>Baseline</th>
+          <th>Target</th>
+          <th>Baseline Avg</th>
+          <th>Delta</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for q in queries %}
+        <tr>
+          <td>{{ q.location.name }}</td>
+          <td>{{ q.get_metric_display }}</td>
+          <td>{{ q.target_year }}</td>
+          <td>{{ q.baseline_start_year }}–{{ q.baseline_end_year }}</td>
+          <td>{{ q.target_value }}</td>
+          <td>{{ q.baseline_avg_value }}</td>
+          <td>{{ q.delta_value }}</td>
+          <td>{{ q.get_status_display }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% else %}
+  <p>No data available.</p>
+{% endif %}
+
+</body>
+</html>

@@ -10,7 +10,7 @@ def seed_demo(apps, schema_editor):
     WeatherQuery = apps.get_model("weather", "WeatherQuery")
 
     # Avoid duplicate seeding
-    if WeatherQuery.objects.exists():
+    if WeatherQuery.objects.count() > 100:
         return
 
     
