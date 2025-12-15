@@ -5,12 +5,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Facts Chart</title>
-    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
 
 <h1>Whither the Weather?</h1>
+<br>
+
+<p> This site helps explore how local climate conditions are changing 
+    over time by comparing recent weather metrics against historical 
+    baselines.</p>    
+    <br>
+
+<p> Right now, the two metrics you can look at are days greater than 90F 
+    and days less than 32F as compared to a baseline period. 
+More metrics can be added in the future.</p>
+<br>
+
+<p>Users can submit queries for specific locations, metrics, 
+    and time periods. Submitted queries are stored but not yet completed automatically. 
+    Automated completion and calculation of results can be added with 
+    Open-Meteo API integration, but this programmer didn't have time to do that.
+    So it's seeded with data for the 15 largest cities in the US 
+    for the last 10 years and users can also manually submit weather data.
+</p>
+<br>
+<p>The dashboard provides some interactive visualizations.</p>
+<br>
+<button> 
+<a href="{% url 'weather:dashboard' %}">Go to Dashboard</a> </button> |
+<button> <a href="{% url 'weather:submit' %}">Submit Weather Query</a> </button> |
+<button><a href="{% url 'weather:submit_data' %}">Submit Weather Data</a> </button>
+| 
+<button><a href="/admin/" >Admin</a></button>
+
 
 
 </body>

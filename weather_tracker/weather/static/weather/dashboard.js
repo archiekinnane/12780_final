@@ -57,32 +57,6 @@ document.addEventListener("DOMContentLoaded", () => {
     },
   });
 
-
-  // Queries over time chart
-  const time_labels = readJsonScript("time-labels");
-  const time_values = readJsonScript("time-values");
-
-  new Chart(time_canvas, {
-    type: "line",
-    data: {
-      labels: time_labels,
-      datasets: [
-        {
-          label: "Dates",
-          data: time_values,
-        },
-      ],
-    },
-    options: {
-      responsive: true,
-      scales: {
-        y: {
-          ticks: { precision: 0 },
-        },
-      },
-    },
-  });
-
 // Deltas by location 
   const delta_labels = readJsonScript("delta-labels");
   const delta_values = readJsonScript("delta-values");

@@ -13,7 +13,7 @@ from .forms import WeatherQueryForm, WeatherDataForm
 
 # Create your views here.
 def hello(request):
-   return HttpResponse("Hello World from Hyperlocal Weather Tracker App!")
+   return render(request, "home.html")
 
 def dashboard(request):
    data = WeatherQuery.objects.all()

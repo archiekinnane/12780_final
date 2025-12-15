@@ -4,6 +4,9 @@
   <head>
     <meta charset="utf-8">
     <title>Dashboard</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
   </head>
   <body>
     <h1>Weather Dashboard</h1>
@@ -22,12 +25,12 @@
     {{ status_labels|json_script:"status-labels" }}
     {{ status_values|json_script:"status-values" }}
 
-    <h2>Statistics over time</h2>
+    
     {{ time_labels|json_script:"time-labels" }}
     {{ time_values|json_script:"time-values" }}
     
 
-    <canvas id="timeChart"  height="30"></canvas>
+    
 
     <form method="get" style="margin-bottom: 1rem;">
       <label>
