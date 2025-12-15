@@ -47,7 +47,7 @@ def dashboard(request):
    
 
    return render(request, "weather/dashboard.html"
-                 , {"queries": data
+                 ,{"queries": data
                     , "status_labels": status_labels
                     , "status_values": status_values
                     , "time_labels": time_labels
