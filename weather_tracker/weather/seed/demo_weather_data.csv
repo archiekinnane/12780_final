@@ -1,0 +1,10 @@
+﻿location_name,state,latitude,longitude,metric,target_year,baseline_start_year,baseline_end_year,target_value,baseline_avg_value,delta_value,status
+Atlanta,GA,33.749,-84.388,days_above_90f,2018,1991,2020,52,41,11,completed
+Atlanta,GA,33.749,-84.388,days_above_90f,2021,1991,2020,63,41,22,completed
+Atlanta,GA,33.749,-84.388,days_above_90f,2024,1991,2020,71,41,30,completed
+Boston,MA,42.3601,-71.0589,days_above_90f,2018,1991,2020,11,8,3,completed
+Boston,MA,42.3601,-71.0589,days_above_90f,2021,1991,2020,19,8,11,completed
+Boston,MA,42.3601,-71.0589,days_above_90f,2024,1991,2020,27,8,19,completed
+Phoenix,AZ,33.4484,-112.074,days_above_90f,2018,1991,2020,145,128,17,completed
+Phoenix,AZ,33.4484,-112.074,days_above_90f,2021,1991,2020,161,128,33,completed
+Phoenix,AZ,33.4484,-112.074,days_above_90f,2024,1991,2020,172,128,44,completed
